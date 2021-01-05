@@ -18,10 +18,8 @@ namespace ZbazinersBar.Models {
             if (!context.Products.Any()) {
                 context.Products.AddRange(
                     new Product {
-                        Name = "Kayak", 
-                        Description = "A boat for one person",
-                        Category = "Watersports", 
-                        Price = 275
+                        Name = "Kayak", Description = "A boat for one person",
+                        Category = "Watersports", Price = 275
                     },
                     new Product {
                         Name = "Lifejacket",
