@@ -107,8 +107,8 @@ namespace ZbazinersBar.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(8, 2)");
+                    b.Property<float>("Price")
+                        .HasColumnType("float(8, 2)");
 
                     b.HasKey("ProductID");
 

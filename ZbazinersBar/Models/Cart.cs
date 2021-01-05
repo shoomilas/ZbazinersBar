@@ -23,7 +23,7 @@ namespace ZbazinersBar.Models {
         public virtual void RemoveLine(Product product) =>
             Lines.RemoveAll(l => l.Product.ProductID == product.ProductID);
 
-        public decimal ComputeTotalValue() =>
+        public float ComputeTotalValue() =>
             Lines.Sum(e => e.Product.Price * e.Quantity);
 
         public virtual void Clear() => Lines.Clear();

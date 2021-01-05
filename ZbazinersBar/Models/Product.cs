@@ -15,8 +15,8 @@ namespace ZbazinersBar.Models {
         [Required]
         [Range(0.01, double.MaxValue,
             ErrorMessage = "Please enter a positive price")]
-        [Column(TypeName = "decimal(8, 2)")]
-        public decimal Price { get; set; }
+        [Column(TypeName = "float(8, 2)")]
+        public float Price { get; set; }
 
         [Required(ErrorMessage = "Please specify a category")]
         public string Category { get; set; }

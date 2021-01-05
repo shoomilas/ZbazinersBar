@@ -19,13 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d20f65d-a1ce-49c5-baad-102dd2290a1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ZbazinersBar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/Models/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/Models/SeedData.cs" afterDir="false" />
+    <list default="true" id="1d20f65d-a1ce-49c5-baad-102dd2290a1e" name="Default Changelist" comment="piwka">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZbazinersBar/Migrations/20200202073426_Initial.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/Migrations/20200202073426_Initial.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZbazinersBar/Migrations/20200202073426_Initial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/Migrations/20200202073426_Initial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZbazinersBar/Migrations/20200203120229_Orders.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/Migrations/20200203120229_Orders.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZbazinersBar/Migrations/20200203122912_ShippedOrders.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/Migrations/20200203122912_ShippedOrders.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZbazinersBar/Migrations/StoreDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/Migrations/StoreDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZbazinersBar/Models/Cart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/Models/Cart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZbazinersBar/Models/ViewModels/PagingInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/Models/ViewModels/PagingInfo.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +61,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609861974902</updated>
-      <workItem from="1609861976121" duration="356000" />
+      <workItem from="1609861976121" duration="859000" />
     </task>
+    <task id="LOCAL-00001" summary="piwka">
+      <created>1609862377055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609862377055</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +87,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="piwka" />
+    <option name="LAST_COMMIT_MESSAGE" value="piwka" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2333" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609862005204">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -86,9 +100,13 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2659" y="294" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1609862107511" />
-    <state x="2471" y="270" key="Vcs.Push.Dialog.v2" timestamp="1609862157230">
+    <state x="2471" y="270" key="Vcs.Push.Dialog.v2" timestamp="1609862345512">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2471" y="270" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1609862157230" />
+    <state x="2471" y="270" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1609862345512" />
+    <state x="2587" y="124" width="586" height="831" key="find.popup" timestamp="1609862550410">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2587" y="124" width="586" height="831" key="find.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1609862550410" />
   </component>
 </project>
