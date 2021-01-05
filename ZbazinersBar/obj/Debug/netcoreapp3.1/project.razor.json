@@ -45,39 +45,6 @@
         }
       },
       {
-        "HashCode": 1785074776,
-        "Kind": "Components.Component",
-        "Name": "ZbazinersBar.Pages.Admin.Orders",
-        "AssemblyName": "ZbazinersBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Orders"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ZbazinersBar.Pages.Admin.Orders"
-        }
-      },
-      {
-        "HashCode": 110702069,
-        "Kind": "Components.Component",
-        "Name": "ZbazinersBar.Pages.Admin.Orders",
-        "AssemblyName": "ZbazinersBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ZbazinersBar.Pages.Admin.Orders"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ZbazinersBar.Pages.Admin.Orders",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1954947172,
         "Kind": "Components.Component",
         "Name": "ZbazinersBar.Pages.Admin.Products",
@@ -210,6 +177,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ZbazinersBar.Pages.Admin.OrderTable",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1785074776,
+        "Kind": "Components.Component",
+        "Name": "ZbazinersBar.Pages.Admin.Orders",
+        "AssemblyName": "ZbazinersBar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Orders"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ZbazinersBar.Pages.Admin.Orders"
+        }
+      },
+      {
+        "HashCode": 110702069,
+        "Kind": "Components.Component",
+        "Name": "ZbazinersBar.Pages.Admin.Orders",
+        "AssemblyName": "ZbazinersBar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ZbazinersBar.Pages.Admin.Orders"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ZbazinersBar.Pages.Admin.Orders",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

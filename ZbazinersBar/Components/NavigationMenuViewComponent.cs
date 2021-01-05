@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Linq;
 using ZbazinersBar.Models;
+using System.Linq;
 
 namespace ZbazinersBar.Components {
 

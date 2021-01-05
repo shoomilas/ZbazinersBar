@@ -4174,9 +4174,10 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.6rem;
   line-height: inherit;
   white-space: nowrap;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -6585,6 +6586,16 @@ a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
   background-color: #1d2124 !important;
+}
+
+.bg-burgundy {
+  background-color: #2e0e09 !important;
+}
+
+a.bg-burgundy:hover, a.bg-burgundy:focus,
+button.bg-burgundy:hover,
+button.bg-burgundy:focus {
+  background-color: #472812 !important;
 }
 
 .bg-white {

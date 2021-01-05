@@ -2,9 +2,7 @@
 using System.Linq;
 
 namespace ZbazinersBar.Models {
-
     public class Cart {
-
         public List<CartLine> Lines { get; set; } = new List<CartLine>();
 
         public virtual void AddItem(Product product, int quantity) {

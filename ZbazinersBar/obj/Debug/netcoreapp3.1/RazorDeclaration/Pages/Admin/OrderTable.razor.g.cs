@@ -12,42 +12,42 @@ namespace ZbazinersBar.Pages.Admin
     using System.Linq;
     using System.Threading.Tasks;
 #nullable restore
-#line 1 "c:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\_Imports.razor"
+#line 1 "C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "c:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\_Imports.razor"
+#line 2 "C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "c:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\_Imports.razor"
+#line 3 "C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "c:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\_Imports.razor"
+#line 4 "C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "c:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\_Imports.razor"
+#line 5 "C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\_Imports.razor"
 using Microsoft.EntityFrameworkCore;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "c:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\_Imports.razor"
+#line 6 "C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\_Imports.razor"
 using ZbazinersBar.Models;
 
 #line default
@@ -61,7 +61,7 @@ using ZbazinersBar.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 31 "c:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\OrderTable.razor"
+#line 31 "C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Pages\Admin\OrderTable.razor"
        
 
     [Parameter]
