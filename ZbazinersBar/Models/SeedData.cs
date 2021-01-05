@@ -40,7 +40,7 @@ namespace ZbazinersBar.Models {
                     new Product {
                         Name = "Very hoppy",
                         Description = "Is it hoppy?",
-                        Category = "Pale ale", Price = 670
+                        Category = "Pale Ale", Price = 670
                     },
                     new Product {
                         Name = "Fruit Ninja",
@@ -80,7 +80,7 @@ namespace ZbazinersBar.Models {
                     new Product {
                         Name = "A.L.E Noire",
                         Description = "Tell me the truth",
-                        Category = "American pale ale", Price = 580
+                        Category = "Pale Ale", Price = 580
                     },
                     new Product {
                         Name = "Astronaut",
@@ -95,7 +95,7 @@ namespace ZbazinersBar.Models {
                     new Product {
                         Name = "The Morning",
                         Description = "Fell it on your face",
-                        Category = "Pale ale", Price = 770
+                        Category = "Pale Ale", Price = 770
                     },
                     new Product {
                         Name = "The Lighthouse",
@@ -125,12 +125,12 @@ namespace ZbazinersBar.Models {
                     new Product {
                         Name = "Lost in time",
                         Description = "Like tears in rain",
-                        Category = "India pale ale", Price = 340
+                        Category = "Pale Ale", Price = 340
                     },
                     new Product {
                         Name = "Toxic",
                         Description = "Too high, can't come down",
-                        Category = "Brown ale", Price = 780
+                        Category = "Brown Ale", Price = 780
                     },
                     new Product {
                         Name = "Starry Night",
@@ -165,7 +165,7 @@ namespace ZbazinersBar.Models {
                     new Product {
                         Name = "American Beauty",
                         Description = "It is hard to stay nad when there's so much beer in the world",
-                        Category = "American Pale Ale", Price = 990
+                        Category = "Pale Ale", Price = 990
                     },
                     new Product {
                         Name = "Good Will Drinking",

@@ -5738,24 +5738,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bowel\\.nuget\\packages\\": {}
+    "C:\\Users\\szumi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bowel\\OneDrive\\Dokumenty\\GitHub\\ZbazinersBar\\ZbazinersBar\\ZbazinersBar.csproj",
+      "projectUniqueName": "C:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\ZbazinersBar.csproj",
       "projectName": "ZbazinersBar",
-      "projectPath": "C:\\Users\\bowel\\OneDrive\\Dokumenty\\GitHub\\ZbazinersBar\\ZbazinersBar\\ZbazinersBar.csproj",
-      "packagesPath": "C:\\Users\\bowel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bowel\\OneDrive\\Dokumenty\\GitHub\\ZbazinersBar\\ZbazinersBar\\obj\\",
+      "projectPath": "C:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\ZbazinersBar.csproj",
+      "packagesPath": "C:\\Users\\szumi\\.nuget\\packages\\",
+      "outputPath": "C:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\bowel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\szumi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5803,7 +5815,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
       }
     }
   }
