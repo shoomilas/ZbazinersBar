@@ -14,7 +14,7 @@ namespace ZbazinersBar
             Configuration = config;
         }
 
-        private IConfiguration Configuration { get; set; }
+        private IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services) {
             services.AddControllersWithViews();
@@ -38,7 +38,6 @@ namespace ZbazinersBar
             app.UseStaticFiles();
             app.UseSession();
             app.UseRouting();
-
             app.UseEndpoints(endpoints => {
                 endpoints.MapControllerRoute("catpage",
                     "{category}/Page{productPage:int}",

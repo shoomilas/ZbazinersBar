@@ -4,6 +4,23 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+
+ a.deco-none {
+  color:#000000 !important;
+  text-decoration:none;
+
+}
+
+.bg-menu:hover {
+  background-color:#0079C1;
+  color:#FFFFFF;
+}
+
+.clickable {
+  cursor:pointer; 
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -2850,6 +2867,8 @@ fieldset:disabled a.btn {
 .show > .btn-outline-warning.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
 }
+
+
 
 .btn-outline-danger {
   color: #dc3545;

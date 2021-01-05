@@ -10,12 +10,16 @@
     <div class="bg-burgundy text-white p-2">
         <div class="container-fluid">
             <div class="row">
-                <div class="col navbar-brand text-center"><span style="font-size: 1.8rem; color: gold">Zbažin</span>Bar</div>
+                <div class="col navbar-brand text-center">
+                    <a class="deco-none" asp-action="Index" asp-controller="Home" asp-route-category="">   
+                        <span style="font-size: 1.8rem; color: gold">Zbažin</span><span style="color: white">Bar</span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
     <div class="p-1 m-1">
-            @RenderBody()
+        @RenderBody()
     </div>
 </body>
 </html>

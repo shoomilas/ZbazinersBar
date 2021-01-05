@@ -1,19 +1,11 @@
 ﻿@model IEnumerable<string>
 
-<a style="font-size: 18px"  class="btn m-2 btn-outline-secondary h5" asp-action="Index"
-   asp-controller="Home" asp-route-category="">
-    Home
-</a>
-
+<a asp-action="Index" asp-controller="Home" asp-route-category=""
+    style="font-size: 18px"  class="btn m-2 btn-outline-secondary h5">Home</a>
 @foreach (string category in Model) {
-    <a style="font-size: 18px"  class="btn m-2 
-       @(category == ViewBag.SelectedCategory 
-           ? "btn-primary": "btn-outline-secondary")"
-       asp-action="Index" asp-controller="Home"
-       asp-route-category="@category"
-       asp-route-productPage="1">
-        @category
-    </a>
+    <a asp-action="Index" asp-controller="Home" asp-route-category="@category" asp-route-productPage="1"
+    style="font-size: 18px"  class="
+    btn m-2 @(category == ViewBag.SelectedCategory ? "btn-primary": "btn-outline-secondary")">
+        @category </a>
 }
-
 <vc:cart-summary />
