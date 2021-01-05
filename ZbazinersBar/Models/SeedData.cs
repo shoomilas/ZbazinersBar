@@ -18,49 +18,165 @@ namespace ZbazinersBar.Models {
             if (!context.Products.Any()) {
                 context.Products.AddRange(
                     new Product {
-                        Name = "Kayak", Description = "A boat for one person",
-                        Category = "Watersports", Price = 275
-                    },
+                                           Name = "Pearl",
+                                           Description = "Cheap=Good",
+                                           Category = "Lager", Price = 2.50
+                                       },
                     new Product {
-                        Name = "Lifejacket",
-                        Description = "Protective and fashionable",
-                        Category = "Watersports", Price = 48.95m
-                    },
+                                           Name = "Zatecky",
+                                           Description = "The best among the best",
+                                           Category = "Lager", Price = 2.70
+                                       },
                     new Product {
-                        Name = "Soccer Ball",
-                        Description = "FIFA-approved size and weight",
-                        Category = "Soccer", Price = 19.50m
-                    },
+                                           Name = "Hazy Baby",
+                                           Description = "Is it foamy?",
+                                           Category = "IPA", Price = 5.50
+                                        },
                     new Product {
-                        Name = "Corner Flags",
-                        Description = "Give your playing field a professional touch",
-                        Category = "Soccer", Price = 34.95m
-                    },
+                                           Name = "Heart Attack",
+                                           Description = "Is it nutty?",
+                                           Category = "APA", Price = 5.70
+                                       },
                     new Product {
-                        Name = "Stadium",
-                        Description = "Flat-packed 35,000-seat stadium",
-                        Category = "Soccer", Price = 79500
-                    },
+                                           Name = "Very hoppy",
+                                           Description = "Is it hoppy?",
+                                           Category = "Pale ale", Price = 6.70
+                                       },
                     new Product {
-                        Name = "Thinking Cap",
-                        Description = "Improve brain efficiency by 75%",
-                        Category = "Chess", Price = 16
-                    },
+                                           Name = "Fruit Ninja",
+                                           Description = "Does it have a surprisingly fruity taste that lingers on the tongue?",
+                                           Category = "Pilsner", Price = 6.20
+                                       },
                     new Product {
-                        Name = "Unsteady Chair",
-                        Description = "Secretly give your opponent a disadvantage",
-                        Category = "Chess", Price = 29.95m
-                    },
+                                           Name = "Second Breakfast",
+                                           Description = "Rich in Vitamin Beer",
+                                           Category = "Stout", Price = 6.30
+                                       },
                     new Product {
-                        Name = "Human Chess Board",
-                        Description = "A fun game for the family",
-                        Category = "Chess", Price = 75
-                    },
+                                           Name = "Pasaulio Skoniai",
+                                           Description = "crikey",
+                                           Category = "Australian Pale Ale", Price = 7.50
+                                       },
                     new Product {
-                        Name = "Bling-Bling King",
-                        Description = "Gold-plated, diamond-studded King",
-                        Category = "Chess", Price = 1200
-                    }
+                                           Name = "Good Fortune",
+                                           Description = "Lucky you!",
+                                           Category = "Witbier", Price = 5.50
+                                       },
+                    new Product {
+                                           Name = "The Red Dragon",
+                                           Description = "The more you drink, the more it burns",
+                                            Category = "Bitter", Price = 4.20
+                                       },
+                    new Product {
+                                           Name = "Ale Dead Redemption",
+                                           Description = "You, Sir, Are A Fish",
+                                           Category = "Porter", Price = 6.70
+                                       },
+                    new Product {
+                                           Name = "Crowning Glory",
+                                           Description = "It's Beer",
+                                           Category = "Lager", Price = 3.20
+                                       },
+                                       new Product {
+                                           Name = "A.L.E Noire",
+                                           Description = "Tell me the truth",
+                                           Category = "American pale ale", Price = 5.80
+                                       },
+                                       new Product {
+                                           Name = "Astronaut",
+                                           Description = "There ain't no space program for drinkers",
+                                           Category = "Dunkel", Price = 8.80
+                                       },
+                                       new Product {
+                                           Name = "Euphoria",
+                                           Description = "You still don't know my name",
+                                           Category = "Pilsner", Price = 6.70
+                                       },
+                                       new Product {
+                                           Name = "The Morning",
+                                           Description = "Fell it on your face",
+                                           Category = "Pale ale", Price = 7.70
+                                       },
+                                       new Product {
+                                           Name = "The Lighthouse",
+                                           Description = "Let Neptune strike ye dead",
+                                           Category = "Porter", Price = 6.40
+                                       },
+                                       new Product {
+                                           Name = "Once upon a beer",
+                                           Description = "Bounty Law",
+                                           Category = "Porter", Price = 6.70
+                                       },
+                                       new Product {
+                                           Name = "1984",
+                                           Description = "Big Beer is watching you",
+                                           Category = "APA", Price = 3.20
+                                       },
+                                       new Product {
+                                           Name = "Fried Gold",
+                                           Description = "Have a nice cold pint and wait for all of this to blow over",
+                                           Category = "Lager", Price = 2.00
+                                       },
+                                       new Product {
+                                           Name = "Grimey Slimey",
+                                           Description = "Your pal Jessie's favorite beer",
+                                           Category = "IPA", Price = 5.80
+                                       },
+                                       new Product {
+                                           Name = "Lost in time",
+                                           Description = "Like tears in rain",
+                                           Category = "India pale ale", Price = 3.40
+                                       },
+                                       new Product {
+                                           Name = "Toxic",
+                                           Description = "Too high, can't come down",
+                                           Category = "Brown ale", Price = 7.80
+                                       },
+                                       new Product {
+                                           Name = "Starry Night",
+                                           Description = "Beer so good, you will cut off your ear!",
+                                           Category = "Stout", Price = 5.50
+                                       },
+                                       new Product {
+                                           Name = "Violence",
+                                           Description = "You can't drink what I drink",
+                                           Category = "IPA", Price = 4.40
+                                       },
+                                       new Product {
+                                           Name = "Discovery",
+                                           Description = "Harder, Better, Faster, Stronger",
+                                           Category = "Lager", Price = 5.30
+                                       },
+                                       new Product {
+                                           Name = "After Hours",
+                                           Description = "You will never be scared to drink again",
+                                           Category = "Porter", Price = 3.80
+                                       },
+                                       new Product {
+                                           Name = "Against all logic",
+                                           Description = "Now I've got you drunk",
+                                           Category = "Witbier", Price = 4.90
+                                       },
+                                       new Product {
+                                           Name = "The Foamy Giant",
+                                           Description = "Superbeer",
+                                           Category = "Lager", Price = 3.10
+                                       },
+                                       new Product {
+                                           Name = "American Beauty",
+                                           Description = "It is hard to stay nad when there's so much beer in the world",
+                                           Category = "American Pale Ale", Price = 9.90
+                                       },
+                                       new Product {
+                                           Name = "Good Will Drinking",
+                                           Description = "How do you like them hops?",
+                                           Category = "Pilsner", Price = 4.70
+                                       },
+                                       new Product {
+                                           Name = "Good Time",
+                                           Description = "It is incredible, do you understand?",
+                                           Category = "APA", Price = 8.40
+                                       }
                 );
                 context.SaveChanges();
             }
