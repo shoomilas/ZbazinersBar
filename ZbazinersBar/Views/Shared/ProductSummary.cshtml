@@ -1,24 +1,22 @@
 ﻿@model Product
 
-<div class="card card-outline-primary m-1 p-1">
-    <div class="bg-faded p-1">
-        <h4>
-            @Model.Name
-            <span class="badge badge-pill badge-primary" style="float:right">
-                <small>@Model.Price.ToString("c")</small>
-            </span>
+<div class="card card-outline-primary m-2 p-2">
+    <div class="card-header text-center" style="color:white; background-color: #6E0000">
+        <h4>@Model.Name
+        <span class="badge badge-pill pull-right badge-primary" style="float:right; font-size: 1.0rem">
+            <span>@Model.Price.ToString("c")</span>
+        </span>
         </h4>
-    </div>
-    <form id="@Model.ProductID" asp-page="/Cart" method="post">
+    </div> 
+    <form id="@Model.ProductID" asp-page="/Cart" method="post" class="p-1">
         <input type="hidden" asp-for="ProductID" />
         <input type="hidden" name="returnUrl"
                value="@ViewContext.HttpContext.Request.PathAndQuery()" />
         <span class="card-text p-1">
             @Model.Description
+            
             <button type="submit" 
-                class="btn btn-success btn-sm pull-right" style="float:right">
-                Add To Cart
-            </button>
+                class="btn btn-success btn-sm pull-right" style="float:right">Add</button>
         </span>
     </form>
 </div>

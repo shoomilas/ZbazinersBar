@@ -6,7 +6,7 @@ using ZbazinersBar.Models.ViewModels;
 namespace ZbazinersBar.Controllers {
     public class HomeController : Controller {
         private readonly IStoreRepository repository;
-        public int PageSize = 6;
+        public int PageSize = 5;
 
         public HomeController(IStoreRepository repo) {
             repository = repo;

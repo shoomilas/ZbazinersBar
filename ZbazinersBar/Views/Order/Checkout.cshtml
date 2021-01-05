@@ -1,24 +1,23 @@
 ﻿@model Order
 
-<h2>Check out now</h2>
-<p>Please enter your details, and we'll ship your goods right away!</p>
+<h2>Checkout</h2>
+<p>Enter your details. We promis gud privacee. You ar sef with us. Pleas believe Kind Sir. Thenk you for your data and monies. We ar realy a reall bar. Thenk you bye bye!!</p>
 
 <div asp-validation-summary="All" class="text-danger"></div>
 
 <form asp-action="Checkout" method="post">
-    <h3>Ship to</h3>
+    <h3>Adressee Info:</h3>
     <div class="form-group">
         <label>Name:</label><input asp-for="Name" class="form-control" />
     </div>
-    <h3>Address</h3>
     <div class="form-group">
-        <label>Line 1:</label><input asp-for="Line1" class="form-control" />
+        <label>Adress Line 1:</label><input asp-for="Line1" class="form-control" />
     </div>
     <div class="form-group">
-        <label>Line 2:</label><input asp-for="Line2" class="form-control" />
+        <label>Adress Line 2:</label><input asp-for="Line2" class="form-control" />
     </div>
     <div class="form-group">
-        <label>Line 3:</label><input asp-for="Line3" class="form-control" />
+        <label>Adress Line 3:</label><input asp-for="Line3" class="form-control" />
     </div>
     <div class="form-group">
         <label>City:</label><input asp-for="City" class="form-control" />
@@ -27,18 +26,17 @@
         <label>State:</label><input asp-for="State" class="form-control" />
     </div>
     <div class="form-group">
-        <label>Zip:</label><input asp-for="Zip" class="form-control" />
+        <label>Zip Code:</label><input asp-for="Zip" class="form-control" />
     </div>
     <div class="form-group">
-        <label>Country:</label><input asp-for="Country" class="form-control" />
+        <label>Country <span style="color: red">(NOTICE: we do not ship to Polandia)</span>:</label><input asp-for="Country" class="form-control" />
     </div>
-    <h3>Options</h3>
     <div class="checkbox">
         <label>
-            <input asp-for="GiftWrap" /> Gift wrap these items
+            <input asp-for="GiftWrap" /> Gift wrap items
         </label>
     </div>
     <div class="text-center">
-        <input class="btn btn-primary" type="submit" value="Complete Order" />
+        <input class="btn btn-primary" type="submit" value="Order" />
     </div>
 </form>
