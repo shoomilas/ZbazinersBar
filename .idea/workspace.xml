@@ -19,21 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d20f65d-a1ce-49c5-baad-102dd2290a1e" name="Default Changelist" comment="decimal -&gt; float">
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/Models/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/Models/SeedData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/AdminLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/AdminLayout.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/Details.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/Details.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/Editor.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/Editor.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/OrderTable.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/OrderTable.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/Orders.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/Orders.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/Products.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/Products.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/Routed.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/Routed.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/_Imports.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/RazorDeclaration/Pages/Admin/_Imports.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/ZbazinersBar.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/ZbazinersBar.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/ZbazinersBar.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/ZbazinersBar.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/obj/ZbazinersBar.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/obj/ZbazinersBar.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/obj/ZbazinersBar.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/obj/ZbazinersBar.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZbazinersBar/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ZbazinersBar/obj/project.assets.json" afterDir="false" />
+    <list default="true" id="1d20f65d-a1ce-49c5-baad-102dd2290a1e" name="Default Changelist" comment="piwka double -&gt; float">
+      <change afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/ZbazinersBar.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/ZbazinersBar.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/ZbazinersBar.RazorComponent.input.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/ZbazinersBar.RazorComponent.output.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/ZbazinersBar.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/ZbazinersBar.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZbazinersBar/obj/Debug/net5.0/ZbazinersBar.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZbazinersBar/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609861974902</updated>
-      <workItem from="1609861976121" duration="1518000" />
+      <workItem from="1609861976121" duration="2284000" />
     </task>
     <task id="LOCAL-00001" summary="piwka">
       <created>1609862377055</created>
@@ -83,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609862963498</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="piwka double -&gt; float">
+      <created>1609863551476</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609863551476</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +105,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="piwka" />
     <MESSAGE value="decimal -&gt; float" />
-    <option name="LAST_COMMIT_MESSAGE" value="decimal -&gt; float" />
+    <MESSAGE value="piwka double -&gt; float" />
+    <option name="LAST_COMMIT_MESSAGE" value="piwka double -&gt; float" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2333" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609862005204">
@@ -114,10 +117,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2659" y="294" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1609862107511" />
-    <state x="2471" y="270" key="Vcs.Push.Dialog.v2" timestamp="1609862345512">
+    <state x="2471" y="270" key="Vcs.Push.Dialog.v2" timestamp="1609863557919">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2471" y="270" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1609862345512" />
+    <state x="2471" y="270" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1609863557919" />
     <state x="3012" y="100" width="586" height="831" key="find.popup" timestamp="1609862870230">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
