@@ -6,15 +6,11 @@ namespace ZbazinersBar.Models {
         public List<CartLine> Lines { get; set; } = new List<CartLine>();
 
         public virtual void AddItem(Item Item, int quantity) {
-            CartLine line = Lines
-                .Where(p => p.Item.ItemID == Item.ItemID)
-                .FirstOrDefault();
+                CartLine line = Lines
+                .FirstOrDefault(p => p.Item.ItemID == Item.ItemID);
 
             if (line == null) {
-                Lines.Add(new CartLine {
-                    Item = Item,
-                    Quantity = quantity
-                });
+                Lines.Add(new CartLine { Item = Item, Quantity = quantity });
             } else {
                 line.Quantity += quantity;
             }
@@ -30,8 +26,8 @@ namespace ZbazinersBar.Models {
     }
 
     public class CartLine {
-        public int CartLineID { get; set; }
         public Item Item { get; set; }
+        public int CartLineID { get; set; }
         public int Quantity { get; set; }
     }
 }

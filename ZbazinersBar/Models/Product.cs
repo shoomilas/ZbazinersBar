@@ -11,6 +11,9 @@ namespace ZbazinersBar.Models {
 
         [Required(ErrorMessage = "Missing item description")]
         public string Description { get; set; }
+        
+        [Required(ErrorMessage = "Missing category")]
+        public string Category { get; set; }
 
         [Required]
         [Range(0.01, double.MaxValue,
@@ -18,7 +21,5 @@ namespace ZbazinersBar.Models {
         [Column(TypeName = "decimal(8, 2)")]
         public decimal Price { get; set; }
 
-        [Required(ErrorMessage = "Missing category")]
-        public string Category { get; set; }
     }
 }

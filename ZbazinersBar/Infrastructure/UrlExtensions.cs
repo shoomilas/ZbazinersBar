@@ -7,9 +7,11 @@ namespace ZbazinersBar.Infrastructure {
         public static string PathAndQuery(this HttpRequest request)
         {
             if (request.QueryString.HasValue)
+            {
                 return $"{request.Path}{request.QueryString}";
-            else
-                return request.Path.ToString();
+            }
+
+            return request.Path.ToString();
         }
     }
 }

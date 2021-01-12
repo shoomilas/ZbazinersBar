@@ -2,26 +2,26 @@
 
 namespace ZbazinersBar.Models {
     public class EFStoreRepository : IStoreRepository {
-        private StoreDbContext context;
+        private StoreDbContext storeDbContext;
 
-        public EFStoreRepository(StoreDbContext ctx) {
-            context = ctx;
+        public EFStoreRepository(StoreDbContext context) {
+            storeDbContext = context;
         }
 
-        public IQueryable<Item> Items => context.Items;
-
-        public void CreateItem(Item p) {
-            context.Add(p);
-            context.SaveChanges();
-        }
-
+        public IQueryable<Item> Items => storeDbContext.Items;
         public void DeleteItem(Item p) {
-            context.Remove(p);
-            context.SaveChanges();
+            storeDbContext.Remove(p);
+            storeDbContext.SaveChanges();
         }
+        public void CreateItem(Item p) {
+            storeDbContext.Add(p);
+            storeDbContext.SaveChanges();
+        }
+
+
 
         public void SaveItem(Item p) {
-            context.SaveChanges();
+            storeDbContext.SaveChanges();
         }
     }
 }

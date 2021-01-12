@@ -11,10 +11,10 @@ namespace ZbazinersBar.Models {
         public static Cart GetCart(IServiceProvider services) {
             ISession session = services.GetRequiredService<IHttpContextAccessor>()?
                 .HttpContext.Session;
-            SessionCart cart = session?.GetJson<SessionCart>("Cart")
+            SessionCart sessionCart = session?.GetJson<SessionCart>("Cart")
                 ?? new SessionCart();
-            cart.Session = session;
-            return cart;
+            sessionCart.Session = session;
+            return sessionCart;
         }
 
         [JsonIgnore]
