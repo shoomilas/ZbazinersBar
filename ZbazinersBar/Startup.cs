@@ -59,7 +59,7 @@ namespace ZbazinersBar
                 endpoints.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
             });
 
-            SeedData.EnsurePopulated(app);
+            DataGenerator.EnsurePopulated(app);
         }
     }
 }

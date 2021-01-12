@@ -37,7 +37,6 @@ using ZbazinersBar.Models.ViewModels;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d17d23a4f7710445f6bdbdee65f09d7d9d1a2036", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_NavigationMenu_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<string>>
     {
-        private global::AspNetCore.Views_Shared_Components_NavigationMenu_Default.__Generated__CartSummaryViewComponentTagHelper __CartSummaryViewComponentTagHelper;
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_2 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-route-category", "", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -69,7 +68,7 @@ using ZbazinersBar.Models.ViewModels;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34f2bfe8927cb491373625f8e34b65daf66325395531", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34f2bfe8927cb491373625f8e34b65daf66325395364", async() => {
                 WriteLiteral("Home");
             }
             );
@@ -103,7 +102,7 @@ using ZbazinersBar.Models.ViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34f2bfe8927cb491373625f8e34b65daf66325397834", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34f2bfe8927cb491373625f8e34b65daf66325397667", async() => {
                 WriteLiteral("\n        ");
 #nullable restore
 #line 9 "C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\Views\Shared\Components\NavigationMenu\Default.cshtml"
@@ -169,19 +168,7 @@ AddHtmlAttributeValue(" ", 361, category == ViewBag.SelectedCategory ? "btn-prim
 #line default
 #line hidden
 #nullable disable
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("vc:cart-summary", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "34f2bfe8927cb491373625f8e34b65daf663253911981", async() => {
-            }
-            );
-            __CartSummaryViewComponentTagHelper = CreateTagHelper<global::AspNetCore.Views_Shared_Components_NavigationMenu_Default.__Generated__CartSummaryViewComponentTagHelper>();
-            __tagHelperExecutionContext.Add(__CartSummaryViewComponentTagHelper);
-            await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
-            if (!__tagHelperExecutionContext.Output.IsContentModified)
-            {
-                await __tagHelperExecutionContext.SetOutputContentAsync();
-            }
-            Write(__tagHelperExecutionContext.Output);
-            __tagHelperExecutionContext = __tagHelperScopeManager.End();
-            WriteLiteral("\n");
+            WriteLiteral("<vc:cart-summary />\n");
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
@@ -194,24 +181,6 @@ AddHtmlAttributeValue(" ", 361, category == ViewBag.SelectedCategory ? "btn-prim
         public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<IEnumerable<string>> Html { get; private set; }
-        [Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute("vc:cart-summary")]
-        public class __Generated__CartSummaryViewComponentTagHelper : Microsoft.AspNetCore.Razor.TagHelpers.TagHelper
-        {
-            private readonly global::Microsoft.AspNetCore.Mvc.IViewComponentHelper __helper = null;
-            public __Generated__CartSummaryViewComponentTagHelper(global::Microsoft.AspNetCore.Mvc.IViewComponentHelper helper)
-            {
-                __helper = helper;
-            }
-            [Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeNotBoundAttribute, global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewContextAttribute]
-            public global::Microsoft.AspNetCore.Mvc.Rendering.ViewContext ViewContext { get; set; }
-            public override async global::System.Threading.Tasks.Task ProcessAsync(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext __context, Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput __output)
-            {
-                (__helper as global::Microsoft.AspNetCore.Mvc.ViewFeatures.IViewContextAware)?.Contextualize(ViewContext);
-                var __helperContent = await __helper.InvokeAsync("CartSummary", new {  });
-                __output.TagName = null;
-                __output.Content.SetHtmlContent(__helperContent);
-            }
-        }
     }
 }
 #pragma warning restore 1591

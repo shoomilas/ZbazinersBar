@@ -13,10 +13,10 @@ namespace ZbazinersBar.Controllers {
             cart = cartService;
         }
 
-        public ViewResult Checkout() => View(new Order());
+        public ViewResult Purchase() => View(new Order());
 
         [HttpPost]
-        public IActionResult Checkout(Order order) {
+        public IActionResult Purchase(Order order) {
             if (cart.Lines.Count() == 0) {
                 ModelState.AddModelError("", "Sorry, your cart is empty!");
             }

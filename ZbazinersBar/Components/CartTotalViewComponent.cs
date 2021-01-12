@@ -3,10 +3,10 @@ using ZbazinersBar.Models;
 
 namespace ZbazinersBar.Components {
 
-    public class CartSummaryViewComponent : ViewComponent {
+    public class CartTotalViewComponent : ViewComponent {
         private Cart cart;
 
-        public CartSummaryViewComponent(Cart cartService) {
+        public CartTotalViewComponent(Cart cartService) {
             cart = cartService;
         }
 

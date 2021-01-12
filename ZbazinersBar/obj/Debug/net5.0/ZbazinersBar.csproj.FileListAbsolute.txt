@@ -55,7 +55,6 @@ C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Order\Checkout.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Shared\Components\CartSummary\Default.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -194,3 +193,4 @@ C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\RazorDeclara
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Admin\Items.razor.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Shared\ItemSummary.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Done.cshtml.g.cs
+C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Order\Purchase.cshtml.g.cs

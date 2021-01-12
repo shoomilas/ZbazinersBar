@@ -14035,23 +14035,6 @@
         }
       },
       {
-        "HashCode": 502018460,
-        "Kind": "MVC.ViewComponent",
-        "Name": "__Generated__CartSummaryViewComponentTagHelper",
-        "AssemblyName": "ZbazinersBar",
-        "CaseSensitive": false,
-        "TagMatchingRules": [
-          {
-            "TagName": "vc:cart-summary"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "ITagHelper",
-          "Common.TypeName": "__Generated__CartSummaryViewComponentTagHelper",
-          "MVC.ViewComponent.Name": "CartSummary"
-        }
-      },
-      {
         "HashCode": -1859447054,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__NavigationMenuViewComponentTagHelper",
@@ -14066,6 +14049,23 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "__Generated__NavigationMenuViewComponentTagHelper",
           "MVC.ViewComponent.Name": "NavigationMenu"
+        }
+      },
+      {
+        "HashCode": 668391406,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CartTotalViewComponentTagHelper",
+        "AssemblyName": "ZbazinersBar",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:cart-total"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CartTotalViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CartTotal"
         }
       },
       {
@@ -16212,6 +16212,11 @@
       "FileKind": "componentImport"
     },
     {
+      "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Views\\Order\\Purchase.cshtml",
+      "TargetPath": "Views\\Order\\Purchase.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Pages\\Admin\\AdminLayout.razor",
       "TargetPath": "Pages\\Admin\\AdminLayout.razor",
       "FileKind": "component"
@@ -16224,11 +16229,6 @@
     {
       "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Views\\Order\\Checkout.cshtml",
-      "TargetPath": "Views\\Order\\Checkout.cshtml",
       "FileKind": "mvc"
     }
   ],

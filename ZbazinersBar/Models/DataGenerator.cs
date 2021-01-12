@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ZbazinersBar.Models {
 
-    public static class SeedData {
+    public static class DataGenerator {
 
         public static void EnsurePopulated(IApplicationBuilder app) {
             StoreDbContext context = app.ApplicationServices
