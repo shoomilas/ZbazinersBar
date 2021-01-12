@@ -59,7 +59,7 @@ namespace ZbazinersBar.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("GiftWrap")
+                    b.Property<bool>("AdditionalGenuineTrdelnik")
                         .HasColumnType("bit");
 
                     b.Property<string>("Line1")

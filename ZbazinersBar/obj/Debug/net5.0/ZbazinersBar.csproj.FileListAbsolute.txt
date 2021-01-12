@@ -194,3 +194,4 @@ C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Shared\ItemSummary.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Done.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Order\Purchase.cshtml.g.cs
+C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Order\Checkout.cshtml.g.cs

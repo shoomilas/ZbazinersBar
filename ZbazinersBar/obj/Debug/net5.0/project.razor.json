@@ -16230,6 +16230,11 @@
       "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Views\\Order\\Checkout.cshtml",
+      "TargetPath": "Views\\Order\\Checkout.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
