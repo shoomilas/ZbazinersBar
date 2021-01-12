@@ -8,8 +8,8 @@ using ZbazinersBar.Models;
 
 namespace ZbazinersBar.Migrations
 {
-    [DbContext(typeof(StoreDbContext))]
-    partial class StoreDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(BarDbContext))]
+    partial class BarDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

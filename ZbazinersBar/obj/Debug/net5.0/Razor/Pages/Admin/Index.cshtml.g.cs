@@ -35,7 +35,7 @@ using ZbazinersBar.Infrastructure;
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("RouteTemplate", "/admin")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"63d011419ef6edf86cec651becc208aed6f0daa1", @"/Pages/Admin/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7a8aa6f7fa274e0c7f2cd9a70abc686cbddb9e51", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"24af025a0cdf3882d26bfeabc29662d0bb2b0eeb", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Admin_Index : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         #line hidden

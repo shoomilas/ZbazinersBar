@@ -9,7 +9,7 @@ using ZbazinersBar.Models;
 
 namespace ZbazinersBar.Migrations
 {
-    [DbContext(typeof(StoreDbContext))]
+    [DbContext(typeof(BarDbContext))]
     [Migration("20200203122912_ShippedOrders")]
     partial class ShippedOrders
     {

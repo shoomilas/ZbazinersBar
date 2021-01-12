@@ -18,7 +18,7 @@ namespace ZbazinersBar
 
         public void ConfigureServices(IServiceCollection services) {
             services.AddControllersWithViews();
-            services.AddDbContext<StoreDbContext>(opts => {
+            services.AddDbContext<BarDbContext>(opts => {
                 opts.UseSqlServer(
                     Configuration["ConnectionStrings:ZbazinersBarConnection"]);
             });

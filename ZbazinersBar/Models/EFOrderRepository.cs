@@ -4,8 +4,8 @@ using System.Linq;
 namespace ZbazinersBar.Models {
 
     public class EFOrderRepository : IOrderRepository {
-        private StoreDbContext context;
-        public EFOrderRepository(StoreDbContext ctx) {
+        private BarDbContext context;
+        public EFOrderRepository(BarDbContext ctx) {
             context = ctx;
         }
         

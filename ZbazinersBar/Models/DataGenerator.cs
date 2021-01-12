@@ -8,8 +8,8 @@ namespace ZbazinersBar.Models {
     public static class DataGenerator {
 
         public static void EnsurePopulated(IApplicationBuilder app) {
-            StoreDbContext context = app.ApplicationServices
-                .CreateScope().ServiceProvider.GetRequiredService<StoreDbContext>();
+            BarDbContext context = app.ApplicationServices
+                .CreateScope().ServiceProvider.GetRequiredService<BarDbContext>();
 
             if (context.Database.GetPendingMigrations().Any()) {
                 context.Database.Migrate();
