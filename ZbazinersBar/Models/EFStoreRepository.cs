@@ -8,19 +8,19 @@ namespace ZbazinersBar.Models {
             context = ctx;
         }
 
-        public IQueryable<Product> Products => context.Products;
+        public IQueryable<Item> Items => context.Items;
 
-        public void CreateProduct(Product p) {
+        public void CreateItem(Item p) {
             context.Add(p);
             context.SaveChanges();
         }
 
-        public void DeleteProduct(Product p) {
+        public void DeleteItem(Item p) {
             context.Remove(p);
             context.SaveChanges();
         }
 
-        public void SaveProduct(Product p) {
+        public void SaveItem(Item p) {
             context.SaveChanges();
         }
     }

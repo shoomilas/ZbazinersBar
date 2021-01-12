@@ -1,4 +1,4 @@
-﻿@model Product
+﻿@model Item
 
 <div class="card card-outline-primary m-2 p-2">
     <div class="card-header text-center" style="color:white; background-color: #6E0000">
@@ -8,8 +8,8 @@
         </span>
         </h4>
     </div> 
-    <form id="@Model.ProductID" asp-page="/Cart" method="post" class="p-1">
-        <input type="hidden" asp-for="ProductID" />
+    <form id="@Model.ItemID" asp-page="/Cart" method="post" class="p-1">
+        <input type="hidden" asp-for="ItemID" />
         <input type="hidden" name="returnUrl"
                value="@ViewContext.HttpContext.Request.PathAndQuery()" />
         <span class="card-text p-1">

@@ -12,18 +12,18 @@ namespace ZbazinersBar.Controllers {
             repository = repo;
         }
 
-        public ViewResult Index(string category, int productPage = 1)
+        public ViewResult Index(string category, int ItemPage = 1)
         {
-            return View(new ProductsListViewModel
+            return View(new ItemsListViewModel
             {
-                Products = repository.Products.Where(p => category == null || p.Category == category).OrderBy(p => p.ProductID).Skip((productPage - 1) * PageSize).Take(PageSize),
+                Items = repository.Items.Where(p => category == null || p.Category == category).OrderBy(p => p.ItemID).Skip((ItemPage - 1) * PageSize).Take(PageSize),
                 PagingInfo = new PagingInfo
                 {
-                    CurrentPage = productPage,
+                    CurrentPage = ItemPage,
                     ItemsPerPage = PageSize,
                     TotalItems = category == null ?
-                                   repository.Products.Count() :
-                                   repository.Products.Where(e =>
+                                   repository.Items.Count() :
+                                   repository.Items.Where(e =>
                                        e.Category == category).Count()
                 },
                 CurrentCategory = category

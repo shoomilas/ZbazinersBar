@@ -5,14 +5,14 @@ namespace ZbazinersBar.Models {
     public class Cart {
         public List<CartLine> Lines { get; set; } = new List<CartLine>();
 
-        public virtual void AddItem(Product product, int quantity) {
+        public virtual void AddItem(Item Item, int quantity) {
             CartLine line = Lines
-                .Where(p => p.Product.ProductID == product.ProductID)
+                .Where(p => p.Item.ItemID == Item.ItemID)
                 .FirstOrDefault();
 
             if (line == null) {
                 Lines.Add(new CartLine {
-                    Product = product,
+                    Item = Item,
                     Quantity = quantity
                 });
             } else {
@@ -20,18 +20,18 @@ namespace ZbazinersBar.Models {
             }
         }
 
-        public virtual void RemoveLine(Product product) =>
-            Lines.RemoveAll(l => l.Product.ProductID == product.ProductID);
+        public virtual void RemoveLine(Item Item) =>
+            Lines.RemoveAll(l => l.Item.ItemID == Item.ItemID);
 
         public decimal ComputeTotalValue() =>
-            Lines.Sum(e => e.Product.Price * e.Quantity);
+            Lines.Sum(e => e.Item.Price * e.Quantity);
 
         public virtual void Clear() => Lines.Clear();
     }
 
     public class CartLine {
         public int CartLineID { get; set; }
-        public Product Product { get; set; }
+        public Item Item { get; set; }
         public int Quantity { get; set; }
     }
 }

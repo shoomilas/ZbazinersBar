@@ -12,72 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1891050923,
-        "Kind": "Components.Component",
-        "Name": "ZbazinersBar.Pages.Admin.Routed",
-        "AssemblyName": "ZbazinersBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Routed"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ZbazinersBar.Pages.Admin.Routed"
-        }
-      },
-      {
-        "HashCode": -1283788498,
-        "Kind": "Components.Component",
-        "Name": "ZbazinersBar.Pages.Admin.Routed",
-        "AssemblyName": "ZbazinersBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ZbazinersBar.Pages.Admin.Routed"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ZbazinersBar.Pages.Admin.Routed",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1785074776,
-        "Kind": "Components.Component",
-        "Name": "ZbazinersBar.Pages.Admin.Orders",
-        "AssemblyName": "ZbazinersBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Orders"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ZbazinersBar.Pages.Admin.Orders"
-        }
-      },
-      {
-        "HashCode": 110702069,
-        "Kind": "Components.Component",
-        "Name": "ZbazinersBar.Pages.Admin.Orders",
-        "AssemblyName": "ZbazinersBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ZbazinersBar.Pages.Admin.Orders"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ZbazinersBar.Pages.Admin.Orders",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1265083649,
         "Kind": "Components.Component",
         "Name": "ZbazinersBar.Pages.Admin.OrderTable",
@@ -181,145 +115,6 @@
         }
       },
       {
-        "HashCode": -1822569612,
-        "Kind": "Components.Component",
-        "Name": "ZbazinersBar.Pages.Admin.Editor",
-        "AssemblyName": "ZbazinersBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Editor"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int64",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ZbazinersBar.Pages.Admin.Editor"
-        }
-      },
-      {
-        "HashCode": 1409546005,
-        "Kind": "Components.Component",
-        "Name": "ZbazinersBar.Pages.Admin.Editor",
-        "AssemblyName": "ZbazinersBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ZbazinersBar.Pages.Admin.Editor"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int64",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ZbazinersBar.Pages.Admin.Editor",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1892220216,
-        "Kind": "Components.Component",
-        "Name": "ZbazinersBar.Pages.Admin.Details",
-        "AssemblyName": "ZbazinersBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Details"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int64",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ZbazinersBar.Pages.Admin.Details"
-        }
-      },
-      {
-        "HashCode": -1652573961,
-        "Kind": "Components.Component",
-        "Name": "ZbazinersBar.Pages.Admin.Details",
-        "AssemblyName": "ZbazinersBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ZbazinersBar.Pages.Admin.Details"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int64",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ZbazinersBar.Pages.Admin.Details",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1954947172,
-        "Kind": "Components.Component",
-        "Name": "ZbazinersBar.Pages.Admin.Products",
-        "AssemblyName": "ZbazinersBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Products"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ZbazinersBar.Pages.Admin.Products"
-        }
-      },
-      {
-        "HashCode": 1796865114,
-        "Kind": "Components.Component",
-        "Name": "ZbazinersBar.Pages.Admin.Products",
-        "AssemblyName": "ZbazinersBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ZbazinersBar.Pages.Admin.Products"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ZbazinersBar.Pages.Admin.Products",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 2023942107,
         "Kind": "Components.Component",
         "Name": "ZbazinersBar.Pages.Admin.AdminLayout",
@@ -412,6 +207,211 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "ZbazinersBar.Pages.Admin.AdminLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1785074776,
+        "Kind": "Components.Component",
+        "Name": "ZbazinersBar.Pages.Admin.Orders",
+        "AssemblyName": "ZbazinersBar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Orders"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ZbazinersBar.Pages.Admin.Orders"
+        }
+      },
+      {
+        "HashCode": 110702069,
+        "Kind": "Components.Component",
+        "Name": "ZbazinersBar.Pages.Admin.Orders",
+        "AssemblyName": "ZbazinersBar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ZbazinersBar.Pages.Admin.Orders"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ZbazinersBar.Pages.Admin.Orders",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1891050923,
+        "Kind": "Components.Component",
+        "Name": "ZbazinersBar.Pages.Admin.Routed",
+        "AssemblyName": "ZbazinersBar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Routed"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ZbazinersBar.Pages.Admin.Routed"
+        }
+      },
+      {
+        "HashCode": -1283788498,
+        "Kind": "Components.Component",
+        "Name": "ZbazinersBar.Pages.Admin.Routed",
+        "AssemblyName": "ZbazinersBar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ZbazinersBar.Pages.Admin.Routed"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ZbazinersBar.Pages.Admin.Routed",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1892220216,
+        "Kind": "Components.Component",
+        "Name": "ZbazinersBar.Pages.Admin.Details",
+        "AssemblyName": "ZbazinersBar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Details"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int64",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ZbazinersBar.Pages.Admin.Details"
+        }
+      },
+      {
+        "HashCode": -1652573961,
+        "Kind": "Components.Component",
+        "Name": "ZbazinersBar.Pages.Admin.Details",
+        "AssemblyName": "ZbazinersBar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ZbazinersBar.Pages.Admin.Details"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int64",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ZbazinersBar.Pages.Admin.Details",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1822569612,
+        "Kind": "Components.Component",
+        "Name": "ZbazinersBar.Pages.Admin.Editor",
+        "AssemblyName": "ZbazinersBar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Editor"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int64",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ZbazinersBar.Pages.Admin.Editor"
+        }
+      },
+      {
+        "HashCode": 1409546005,
+        "Kind": "Components.Component",
+        "Name": "ZbazinersBar.Pages.Admin.Editor",
+        "AssemblyName": "ZbazinersBar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ZbazinersBar.Pages.Admin.Editor"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int64",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ZbazinersBar.Pages.Admin.Editor",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1179785196,
+        "Kind": "Components.Component",
+        "Name": "ZbazinersBar.Pages.Admin.Items",
+        "AssemblyName": "ZbazinersBar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Items"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ZbazinersBar.Pages.Admin.Items"
+        }
+      },
+      {
+        "HashCode": -1495676775,
+        "Kind": "Components.Component",
+        "Name": "ZbazinersBar.Pages.Admin.Items",
+        "AssemblyName": "ZbazinersBar",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ZbazinersBar.Pages.Admin.Items"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ZbazinersBar.Pages.Admin.Items",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16147,13 +16147,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Pages\\Admin\\Orders.razor",
-      "TargetPath": "Pages\\Admin\\Orders.razor",
+      "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Views\\Shared\\ItemSummary.cshtml",
+      "TargetPath": "Views\\Shared\\ItemSummary.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Pages\\Admin\\Items.razor",
+      "TargetPath": "Pages\\Admin\\Items.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Pages\\Admin\\Products.razor",
-      "TargetPath": "Pages\\Admin\\Products.razor",
+      "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Pages\\Admin\\Orders.razor",
+      "TargetPath": "Pages\\Admin\\Orders.razor",
       "FileKind": "component"
     },
     {
@@ -16224,11 +16229,6 @@
     {
       "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Views\\Order\\Checkout.cshtml",
       "TargetPath": "Views\\Order\\Checkout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Views\\Shared\\ProductSummary.cshtml",
-      "TargetPath": "Views\\Shared\\ProductSummary.cshtml",
       "FileKind": "mvc"
     }
   ],

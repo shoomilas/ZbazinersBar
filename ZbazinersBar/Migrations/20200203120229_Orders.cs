@@ -33,7 +33,7 @@ namespace ZbazinersBar.Migrations
                 {
                     CartLineID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ProductID = table.Column<long>(nullable: true),
+                    ItemID = table.Column<long>(nullable: true),
                     Quantity = table.Column<int>(nullable: false),
                     OrderID = table.Column<int>(nullable: true)
                 },
@@ -47,10 +47,10 @@ namespace ZbazinersBar.Migrations
                         principalColumn: "OrderID",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_CartLine_Products_ProductID",
-                        column: x => x.ProductID,
-                        principalTable: "Products",
-                        principalColumn: "ProductID",
+                        name: "FK_CartLine_Items_ItemID",
+                        column: x => x.ItemID,
+                        principalTable: "Items",
+                        principalColumn: "ItemID",
                         onDelete: ReferentialAction.Restrict);
                 });
 
@@ -60,9 +60,9 @@ namespace ZbazinersBar.Migrations
                 column: "OrderID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_CartLine_ProductID",
+                name: "IX_CartLine_ItemID",
                 table: "CartLine",
-                column: "ProductID");
+                column: "ItemID");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

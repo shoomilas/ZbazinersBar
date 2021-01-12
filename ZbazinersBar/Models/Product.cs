@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ZbazinersBar.Models {
 
-    public class Product {
-        public long ProductID { get; set; }
+    public class Item {
+        public long ItemID { get; set; }
 
-        [Required(ErrorMessage = "Please enter a product name")]
+        [Required(ErrorMessage = "Please enter a Item name")]
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Please enter a description")]

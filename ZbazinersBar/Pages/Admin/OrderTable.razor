@@ -6,7 +6,7 @@
         @if (Orders?.Count() > 0) {
             @foreach (Order o in Orders) {
                 <tr>
-                    <td>@o.Name</td><td>@o.Zip</td><th>Product</th><th>Quantity</th>
+                    <td>@o.Name</td><td>@o.Zip</td><th>Item</th><th>Quantity</th>
                 <td>                    
                     <button class="btn btn-sm btn-danger" 
                             @onclick="@(e => OrderSelected.InvokeAsync(o.OrderID))">
@@ -17,7 +17,7 @@
                 @foreach (CartLine line in o.Lines) {
                     <tr>
                         <td colspan="2"></td>
-                        <td>@line.Product.Name</td><td>@line.Quantity</td>
+                        <td>@line.Item.Name</td><td>@line.Quantity</td>
                         <td></td>
                     </tr>
                 }

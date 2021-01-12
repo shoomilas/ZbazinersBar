@@ -16,13 +16,13 @@
     <tbody>
         @foreach (var line in Model.Cart.Lines) {
             <tr>
-                <td class="text-left">@line.Product.Name</td>
+                <td class="text-left">@line.Item.Name</td>
                 <td class="text-center">@line.Quantity</td>
-                <td class="text-right">@line.Product.Price.ToString("c")</td>
-                <td class="text-right">@((line.Quantity * line.Product.Price).ToString("c"))</td>
+                <td class="text-right">@line.Item.Price.ToString("c")</td>
+                <td class="text-right">@((line.Quantity * line.Item.Price).ToString("c"))</td>
                 <td class="text-center">
                     <form asp-page-handler="Remove" method="post">
-                        <input type="hidden" name="ProductID" value="@line.Product.ProductID" />
+                        <input type="hidden" name="ItemID" value="@line.Item.ItemID" />
                         <input type="hidden" name="returnUrl" value="@Model.ReturnUrl" />
                         <button type="submit" class="btn-sm btn btn-danger">Discard</button>
                     </form>

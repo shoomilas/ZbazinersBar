@@ -53,7 +53,7 @@ using ZbazinersBar.Models;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/products/details/{id:long}")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/Items/details/{id:long}")]
     public partial class Details : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -71,13 +71,13 @@ using ZbazinersBar.Models;
     [Parameter]
     public long Id { get; set; }
 
-    public Product Product { get; set; }
+    public Item Item { get; set; }
 
     protected override void OnParametersSet() {
-        Product = Repository.Products.FirstOrDefault(p => p.ProductID == Id);
+        Item = Repository.Items.FirstOrDefault(p => p.ItemID == Id);
     }
 
-    public string EditUrl => $"/admin/products/edit/{Product.ProductID}";
+    public string EditUrl => $"/admin/Items/edit/{Item.ItemID}";
 
 #line default
 #line hidden

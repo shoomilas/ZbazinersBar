@@ -53,8 +53,8 @@ using ZbazinersBar.Models;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/products/edit/{id:long}")]
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/products/create")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/Items/edit/{id:long}")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/Items/create")]
     public partial class Editor : OwningComponentBase<IStoreRepository>
     {
         #pragma warning disable 1998
@@ -74,21 +74,21 @@ using ZbazinersBar.Models;
     [Parameter]
     public long Id { get; set; } = 0;
 
-    public Product Product { get; set; } = new Product();
+    public Item Item { get; set; } = new Item();
 
     protected override void OnParametersSet() {
         if (Id != 0) {
-            Product = Repository.Products.FirstOrDefault(p => p.ProductID == Id);
+            Item = Repository.Items.FirstOrDefault(p => p.ItemID == Id);
         }
     }
 
-    public void SaveProduct() {
+    public void SaveItem() {
         if (Id == 0) {
-            Repository.CreateProduct(Product);
+            Repository.CreateItem(Item);
         } else {
-            Repository.SaveProduct(Product);
+            Repository.SaveItem(Item);
         }
-        NavManager.NavigateTo("/admin/products");
+        NavManager.NavigateTo("/admin/Items");
     }
 
     public string ThemeColor => Id == 0 ? "primary" : "warning";

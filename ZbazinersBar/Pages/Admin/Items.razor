@@ -1,4 +1,4 @@
-﻿@page "/admin/products"
+﻿@page "/admin/Items"
 @page "/admin"
 @inherits OwningComponentBase<IStoreRepository>
 
@@ -10,24 +10,24 @@
         </tr>
     </thead>
     <tbody>
-        @if (ProductData?.Count() > 0) {
-            @foreach (Product p in ProductData) {
+        @if (ItemData?.Count() > 0) {
+            @foreach (Item p in ItemData) {
                 <tr>
-                    <td>@p.ProductID</td>
+                    <td>@p.ItemID</td>
                     <td>@p.Name</td>
                     <td>@p.Category</td>
                     <td>@p.Price.ToString("c")</td>
                     <td>
                         <NavLink class="btn btn-info btn-sm"
-                                 href="@GetDetailsUrl(p.ProductID)">
+                                 href="@GetDetailsUrl(p.ItemID)">
                             Details
                         </NavLink>
                         <NavLink class="btn btn-warning btn-sm"
-                                 href="@GetEditUrl(p.ProductID)">
+                                 href="@GetEditUrl(p.ItemID)">
                             Edit
                         </NavLink>
                         <button class="btn btn-danger btn-sm"
-                                 @onclick="@(e => DeleteProduct(p))">
+                                 @onclick="@(e => DeleteItem(p))">
                             Delete
                         </button>
                     </td>
@@ -35,32 +35,32 @@
             }
         } else {
             <tr>
-                <td colspan="5" class="text-center">No Products</td>
+                <td colspan="5" class="text-center">No Items</td>
             </tr>
         }
     </tbody>
 </table>
 
-<NavLink class="btn btn-primary" href="/admin/products/create">Create</NavLink>
+<NavLink class="btn btn-primary" href="/admin/Items/create">Create</NavLink>
 
 @code {
     public IStoreRepository Repository => Service;
 
-    public IEnumerable<Product> ProductData { get; set; }
+    public IEnumerable<Item> ItemData { get; set; }
 
     protected async override Task OnInitializedAsync() {
         await UpdateData();
     }
 
     public async Task UpdateData() {
-        ProductData = await Repository.Products.ToListAsync();
+        ItemData = await Repository.Items.ToListAsync();
     }
 
-    public async Task DeleteProduct(Product p) {
-        Repository.DeleteProduct(p);
+    public async Task DeleteItem(Item p) {
+        Repository.DeleteItem(p);
         await UpdateData();
     }
 
-    public string GetDetailsUrl(long id) => $"/admin/products/details/{id}";
-    public string GetEditUrl(long id) => $"/admin/products/edit/{id}";
+    public string GetDetailsUrl(long id) => $"/admin/Items/details/{id}";
+    public string GetEditUrl(long id) => $"/admin/Items/edit/{id}";
 }

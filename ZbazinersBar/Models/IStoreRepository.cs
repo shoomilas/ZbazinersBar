@@ -3,10 +3,10 @@
 namespace ZbazinersBar.Models {
     public interface IStoreRepository {
 
-        IQueryable<Product> Products { get; }
+        IQueryable<Item> Items { get; }
 
-        void SaveProduct(Product p);
-        void CreateProduct(Product p);
-        void DeleteProduct(Product p);
+        void SaveItem(Item p);
+        void CreateItem(Item p);
+        void DeleteItem(Item p);
     }
 }

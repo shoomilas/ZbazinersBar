@@ -59,7 +59,6 @@ C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Order\Checkout.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Shared\Components\CartSummary\Default.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
-C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Shared\ProductSummary.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
@@ -82,7 +81,6 @@ C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\RazorDeclara
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\Editor.razor.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\Orders.razor.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\OrderTable.razor.g.cs
-C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\Products.razor.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\Routed.razor.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\_Imports.razor.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\ZbazinersBar.RazorComponent.output.cache
@@ -92,7 +90,6 @@ C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Admin\Editor.razor.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Admin\Orders.razor.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Admin\OrderTable.razor.g.cs
-C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Admin\Products.razor.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Admin\Routed.razor.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Admin\_Imports.razor.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Admin\Index.cshtml.g.cs
@@ -194,3 +191,6 @@ C:\Users\bowel\OneDrive\Dokumenty\GitHub\ZbazinersBar\ZbazinersBar\obj\Debug\net
 C:\Users\bowel\OneDrive\Dokumenty\GitHub\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\ref\ZbazinersBar.dll
 C:\Users\bowel\OneDrive\Dokumenty\GitHub\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\ZbazinersBar.pdb
 C:\Users\bowel\OneDrive\Dokumenty\GitHub\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\ZbazinersBar.genruntimeconfig.cache
+C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\Items.razor.g.cs
+C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Admin\Items.razor.g.cs
+C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Shared\ItemSummary.cshtml.g.cs

@@ -20,13 +20,13 @@ namespace ZbazinersBar.Models {
         [JsonIgnore]
         public ISession Session { get; set; }
 
-        public override void AddItem(Product product, int quantity) {
-            base.AddItem(product, quantity);
+        public override void AddItem(Item Item, int quantity) {
+            base.AddItem(Item, quantity);
             Session.SetJson("Cart", this);
         }
 
-        public override void RemoveLine(Product product) {
-            base.RemoveLine(product);
+        public override void RemoveLine(Item Item) {
+            base.RemoveLine(Item);
             Session.SetJson("Cart", this);
         }
 

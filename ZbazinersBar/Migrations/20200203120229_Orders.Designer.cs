@@ -17,7 +17,7 @@ namespace ZbazinersBar.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "5.0")
+                .HasAnnotation("ItemVersion", "5.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -31,7 +31,7 @@ namespace ZbazinersBar.Migrations
                     b.Property<int?>("OrderID")
                         .HasColumnType("int");
 
-                    b.Property<long?>("ProductID")
+                    b.Property<long?>("ItemID")
                         .HasColumnType("bigint");
 
                     b.Property<int>("Quantity")
@@ -41,7 +41,7 @@ namespace ZbazinersBar.Migrations
 
                     b.HasIndex("OrderID");
 
-                    b.HasIndex("ProductID");
+                    b.HasIndex("ItemID");
 
                     b.ToTable("CartLine");
                 });
@@ -90,9 +90,9 @@ namespace ZbazinersBar.Migrations
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("ZbazinersBar.Models.Product", b =>
+            modelBuilder.Entity("ZbazinersBar.Models.Item", b =>
                 {
-                    b.Property<long>("ProductID")
+                    b.Property<long>("ItemID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -109,9 +109,9 @@ namespace ZbazinersBar.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(8, 2)");
 
-                    b.HasKey("ProductID");
+                    b.HasKey("ItemID");
 
-                    b.ToTable("Products");
+                    b.ToTable("Items");
                 });
 
             modelBuilder.Entity("ZbazinersBar.Models.CartLine", b =>
@@ -120,9 +120,9 @@ namespace ZbazinersBar.Migrations
                         .WithMany("Lines")
                         .HasForeignKey("OrderID");
 
-                    b.HasOne("ZbazinersBar.Models.Product", "Product")
+                    b.HasOne("ZbazinersBar.Models.Item", "Item")
                         .WithMany()
-                        .HasForeignKey("ProductID");
+                        .HasForeignKey("ItemID");
                 });
 #pragma warning restore 612, 618
         }

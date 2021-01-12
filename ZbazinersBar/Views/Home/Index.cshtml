@@ -1,7 +1,7 @@
-﻿@model ProductsListViewModel
+﻿@model ItemsListViewModel
 
-@foreach (var m in Model.Products) {
-    <partial name="ProductSummary" model="m" />
+@foreach (var m in Model.Items) {
+    <partial name="ItemSummary" model="m" />
 }
 <div page-model="@Model.PagingInfo" page-action="Index" page-classes-enabled="true"
      page-class="btn" page-class-normal="btn-outline-dark"

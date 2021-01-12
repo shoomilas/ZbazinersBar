@@ -13,7 +13,7 @@ namespace ZbazinersBar.Components {
 
         public IViewComponentResult Invoke() {
             ViewBag.SelectedCategory = RouteData?.Values["category"];
-            return View(repository.Products
+            return View(repository.Items
                 .Select(x => x.Category)
                 .Distinct()
                 .OrderBy(x => x));
