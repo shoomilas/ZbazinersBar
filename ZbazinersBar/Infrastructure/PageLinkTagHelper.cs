@@ -7,7 +7,6 @@ using ZbazinersBar.Models.ViewModels;
 using System.Collections.Generic;
 
 namespace ZbazinersBar.Infrastructure {
-
     [HtmlTargetElement("div", Attributes = "page-model")]
     public class PageLinkTagHelper : TagHelper {
         private IUrlHelperFactory urlHelperFactory;

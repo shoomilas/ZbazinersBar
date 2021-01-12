@@ -1,8 +1,10 @@
-﻿@model ItemsListViewModel
+﻿@using ZbazinersBar.Services
+@model ItemsListViewModel
 
 @foreach (var m in Model.Items) {
     <partial name="ItemSummary" model="m" />
 }
+
 <div page-model="@Model.PagingInfo" page-action="Index" page-classes-enabled="true"
      page-class="btn" page-class-normal="btn-outline-dark"
      page-class-selected="btn-primary" page-url-category="@Model.CurrentCategory"
