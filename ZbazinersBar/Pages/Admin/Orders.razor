@@ -3,7 +3,7 @@
 
 <OrderTable TableTitle="Orders: to ship" 
         Orders="UnshippedOrders" ButtonLabel="Ship" OrderSelected="ShipOrder" />
-<OrderTable TableTitle="Orders: completed" 
+<OrderTable TableTitle="Orders: Done" 
        Orders="ShippedOrders" ButtonLabel="Reset" OrderSelected="ResetOrder" />
 <button class="btn btn-info" @onclick="@(e => UpdateData())">Refresh Data</button>
 

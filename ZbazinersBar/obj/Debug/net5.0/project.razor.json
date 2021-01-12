@@ -16147,6 +16147,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Pages\\Done.cshtml",
+      "TargetPath": "Pages\\Done.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Views\\Shared\\ItemSummary.cshtml",
       "TargetPath": "Views\\Shared\\ItemSummary.cshtml",
       "FileKind": "mvc"
@@ -16185,11 +16190,6 @@
       "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Pages\\Admin\\Editor.razor",
       "TargetPath": "Pages\\Admin\\Editor.razor",
       "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Pages\\Completed.cshtml",
-      "TargetPath": "Pages\\Completed.cshtml",
-      "FileKind": "mvc"
     },
     {
       "FilePath": "c:\\_Scratchpad\\Zbaziners\\ZbazinersBar\\ZbazinersBar\\Pages\\_CartLayout.cshtml",

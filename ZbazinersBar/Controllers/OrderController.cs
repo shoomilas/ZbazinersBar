@@ -24,7 +24,7 @@ namespace ZbazinersBar.Controllers {
                 order.Lines = cart.Lines.ToArray();
                 repository.SaveOrder(order);
                 cart.Clear();
-                return RedirectToPage("/Completed", new { orderId = order.OrderID });
+                return RedirectToPage("/Done", new { orderId = order.OrderID });
             } else {
                 return View();
             }

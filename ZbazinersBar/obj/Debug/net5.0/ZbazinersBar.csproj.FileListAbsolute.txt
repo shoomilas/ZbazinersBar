@@ -51,7 +51,6 @@ C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\ZbazinersBar
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\ZbazinersBar.TagHelpers.output.cache
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\ZbazinersBar.RazorCoreGenerate.cache
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Cart.cshtml.g.cs
-C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Completed.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\_CartLayout.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
@@ -194,3 +193,4 @@ C:\Users\bowel\OneDrive\Dokumenty\GitHub\ZbazinersBar\ZbazinersBar\obj\Debug\net
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\Items.razor.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Admin\Items.razor.g.cs
 C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Views\Shared\ItemSummary.cshtml.g.cs
+C:\_Scratchpad\Zbaziners\ZbazinersBar\ZbazinersBar\obj\Debug\net5.0\Razor\Pages\Done.cshtml.g.cs

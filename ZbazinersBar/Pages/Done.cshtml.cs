@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ZbazinersBar.Pages
 {
-    public class CompletedModel : PageModel
+    public class DoneModel : PageModel
     {
         public void OnGet()
         {
