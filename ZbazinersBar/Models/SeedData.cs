@@ -129,7 +129,7 @@ namespace ZbazinersBar.Models {
                     },
                     new Product {
                         Name = "Toxic",
-                        Description = "Too high, can't come down",
+                        Description = "Too drunk, can't come down",
                         Category = "Brown ale", Price = 780
                     },
                     new Product {
@@ -164,7 +164,7 @@ namespace ZbazinersBar.Models {
                     },
                     new Product {
                         Name = "American Beauty",
-                        Description = "It is hard to stay nad when there's so much beer in the world",
+                        Description = "It is hard to stay mad when there's so much beer in the world",
                         Category = "American Pale Ale", Price = 990
                     },
                     new Product {
