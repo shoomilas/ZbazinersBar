@@ -8,7 +8,7 @@ Run .NET command `dotnet run` in ZbazinersBar project folder. Website will be av
 
 ## Screenshot
 
-![ble](.\Docs\frontpage-screenshot.png)
+![frontpage-screenshot](https://raw.githubusercontent.com/shoomilas/ZbazinersBar/master/Docs/frontpage-screenshot.png)
 
 ## Food for thought:
 
