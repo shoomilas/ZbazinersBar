@@ -5,14 +5,12 @@ using Microsoft.Extensions.DependencyInjection;
 using ZbazinersBar.Infrastructure;
 
 namespace ZbazinersBar.Models {
-
     public class SessionCart : Cart {
-
         public static Cart GetCart(IServiceProvider services) {
-            ISession session = services.GetRequiredService<IHttpContextAccessor>()?
+            ISession session = services.GetRequiredService<IHttpContextAccessor>() ?
                 .HttpContext.Session;
-            SessionCart sessionCart = session?.GetJson<SessionCart>("Cart")
-                ?? new SessionCart();
+            SessionCart sessionCart = session?.GetJson<SessionCart>("Cart") ??
+                new SessionCart();
             sessionCart.Session = session;
             return sessionCart;
         }

@@ -3,9 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace ZbazinersBar.Models {
-
     public class Order {
-
         [BindNever]
         public int OrderID { get; set; }
         [BindNever]

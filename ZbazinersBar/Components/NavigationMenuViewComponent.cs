@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Linq;
+using Microsoft.AspNetCore.Mvc;
 using ZbazinersBar.Models;
-using System.Linq;
 
 namespace ZbazinersBar.Components {
-
     public class NavigationMenuViewComponent : ViewComponent {
         private IStoreRepository repository;
 

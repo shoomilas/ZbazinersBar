@@ -1,8 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ZbazinersBar.Models {
-
     public class Item {
         public long ItemID { get; set; }
 
@@ -11,7 +10,7 @@ namespace ZbazinersBar.Models {
 
         [Required(ErrorMessage = "Missing item description")]
         public string Description { get; set; }
-        
+
         [Required(ErrorMessage = "Missing category")]
         public string Category { get; set; }
 
@@ -20,6 +19,5 @@ namespace ZbazinersBar.Models {
             ErrorMessage = "Error: Price has to be a positive number")]
         [Column(TypeName = "decimal(8, 2)")]
         public decimal Price { get; set; }
-
     }
 }

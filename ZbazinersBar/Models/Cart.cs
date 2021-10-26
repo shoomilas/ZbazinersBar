@@ -6,12 +6,13 @@ namespace ZbazinersBar.Models {
         public List<CartLine> Lines { get; set; } = new List<CartLine>();
 
         public virtual void AddItem(Item Item, int quantity) {
-                CartLine line = Lines
-                .FirstOrDefault(p => p.Item.ItemID == Item.ItemID);
+            CartLine line = Lines
+                .Find(p => p.Item.ItemID == Item.ItemID);
 
             if (line == null) {
                 Lines.Add(new CartLine { Item = Item, Quantity = quantity });
-            } else {
+            }
+            else {
                 line.Quantity += quantity;
             }
         }

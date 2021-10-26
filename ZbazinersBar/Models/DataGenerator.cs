@@ -4,9 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 
 namespace ZbazinersBar.Models {
-
     public static class DataGenerator {
-
         public static void EnsurePopulated(IApplicationBuilder app) {
             BarDbContext context = app.ApplicationServices
                 .CreateScope().ServiceProvider.GetRequiredService<BarDbContext>();
@@ -40,7 +38,7 @@ namespace ZbazinersBar.Models {
                     new Item {
                         Name = "Very hoppy",
                         Description = "Is it hoppy?",
-                        Category = "Pale ale", Price = (decimal)6.70
+                        Category = "Pale Ale", Price = (decimal)6.70
                     },
                     new Item {
                         Name = "Fruit Ninja",
@@ -80,7 +78,7 @@ namespace ZbazinersBar.Models {
                     new Item {
                         Name = "A.L.E Noire",
                         Description = "Tell me the truth",
-                        Category = "American pale ale", Price = (decimal)5.80
+                        Category = "American Pale Ale", Price = (decimal)5.80
                     },
                     new Item {
                         Name = "Astronaut",
@@ -94,8 +92,8 @@ namespace ZbazinersBar.Models {
                     },
                     new Item {
                         Name = "The Morning",
-                        Description = "Fell it on your face",
-                        Category = "Pale ale", Price = (decimal)7.70
+                        Description = "Feel it on your face",
+                        Category = "Pale Ale", Price = (decimal)7.70
                     },
                     new Item {
                         Name = "The Lighthouse",
@@ -125,12 +123,12 @@ namespace ZbazinersBar.Models {
                     new Item {
                         Name = "Lost in time",
                         Description = "Like tears in rain",
-                        Category = "India pale ale", Price = (decimal)3.40
+                        Category = "India Pale Ale", Price = (decimal)3.40
                     },
                     new Item {
                         Name = "Toxic",
                         Description = "Too drunk, can't come down",
-                        Category = "Brown ale", Price = (decimal)7.80
+                        Category = "Brown Ale", Price = (decimal)7.80
                     },
                     new Item {
                         Name = "Starry Night",

@@ -18,8 +18,6 @@ namespace ZbazinersBar.Models {
             BarDbContext.SaveChanges();
         }
 
-
-
         public void SaveItem(Item p) {
             BarDbContext.SaveChanges();
         }

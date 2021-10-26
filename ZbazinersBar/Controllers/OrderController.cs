@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ZbazinersBar.Models;
-using System.Linq;
 
 namespace ZbazinersBar.Controllers {
 
@@ -17,7 +16,7 @@ namespace ZbazinersBar.Controllers {
 
         [HttpPost]
         public IActionResult Purchase(Order order) {
-            if (cart.Lines.Count() == 0) {
+            if (cart.Lines.Count == 0) {
                 ModelState.AddModelError("", "Sorry, your cart is empty!");
             }
             if (ModelState.IsValid) {
@@ -25,7 +24,8 @@ namespace ZbazinersBar.Controllers {
                 repository.SaveOrder(order);
                 cart.Clear();
                 return RedirectToPage("/Done", new { orderId = order.OrderID });
-            } else {
+            }
+            else {
                 return View();
             }
         }
